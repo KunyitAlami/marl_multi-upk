@@ -1,0 +1,43 @@
+PS D:\GHANI\Semester 7\1. OTW SKOM\Skripsi\ta_skom - 1250 episode> python -u "d:\GHANI\Semester 7\1. OTW SKOM\Skripsi\ta_skom - 1250 episode\sumo\generate_demand.py"
+
+============================================================
+Demand Generator — 3 Level (Low / Normal / High)
+============================================================
+
+[LOW] target = rata-rata 7 hari terakhir (14-11-2026) diambil dari rata-rata nilai terendah di setaip daerah banjarmasin tengah
+  Total kendaraan  : 1150
+  Seed             : 42
+  Output           : d:\GHANI\Semester 7\1. OTW SKOM\Skripsi\ta_skom - 1250 episode\sumo\demand_low.rou.xml
+  Generated trips  : 1150
+    motor      526 (45.7%)
+    mobil      546 (47.5%)
+    truk        55 (4.8%)
+    bus         23 (1.9%)
+  Validasi         : OK (trip=1150, from/to pos1-pos14=0)
+
+[NORMAL] target = rata-rata 7 hari terakhir (14-11-2026) diambil dari rata-rata nilai demand normal tertinggi di setaip daerah banjarmasin tengah
+  Total kendaraan  : 2300
+  Seed             : 43
+  Output           : d:\GHANI\Semester 7\1. OTW SKOM\Skripsi\ta_skom - 1250 episode\sumo\demand_normal.rou.xml
+  Generated trips  : 2300
+    motor     1051 (45.7%)
+    mobil     1092 (47.5%)
+    truk       110 (4.8%)
+    bus         47 (1.9%)
+  Validasi         : OK (trip=2300, from/to pos1-pos14=0)
+
+[HIGH] target = rata-rata 7 hari terakhir (14-11-2026) diambil dari rata-rata nilai tertinggi di setaip daerah banjarmasin tengah
+  Total kendaraan  : 4600
+  Seed             : 44
+  Output           : d:\GHANI\Semester 7\1. OTW SKOM\Skripsi\ta_skom - 1250 episode\sumo\demand_high.rou.xml
+  Generated trips  : 4600
+    motor     2102 (45.7%)
+    mobil     2185 (47.5%)
+    truk       221 (4.8%)
+    bus         92 (1.9%)
+  Validasi         : OK (trip=4600, from/to pos1-pos14=0)
+
+============================================================
+Semua demand file selesai dibuat.
+============================================================
+PS D:\GHANI\Semester 7\1. OTW SKOM\Skripsi\ta_skom - 1250 episode> 

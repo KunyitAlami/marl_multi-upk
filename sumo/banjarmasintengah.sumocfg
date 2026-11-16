@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2026-11-15T07:17:56.433790+08:00 by Eclipse SUMO sumo 1.27.0
+-->
+
+<sumoConfiguration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/sumoConfiguration.xsd">
+
+    <input>
+        <net-file value="banjarmasintengah.net.xml"/>
+        <!-- <route-files value="demand_high.rou.xml"/> -->
+    </input>
+    <processing>
+        <!-- <lateral-resolution value="20.0"/> -->
+        <collision.action value="none"/>
+        <collision.check-junctions value="false"/>
+        <time-to-teleport value="300"/>
+    </processing>
+</sumoConfiguration>
